@@ -13,6 +13,8 @@
 		7F560159247053D300F80FA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F560158247053D300F80FA9 /* Assets.xcassets */; };
 		7F56015C247053D300F80FA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F56015B247053D300F80FA9 /* Preview Assets.xcassets */; };
 		7F56015F247053D300F80FA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F56015D247053D300F80FA9 /* LaunchScreen.storyboard */; };
+		7F5601672470540F00F80FA9 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5601662470540F00F80FA9 /* NetworkingManager.swift */; };
+		7F5601692470543800F80FA9 /* DataListEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5601682470543800F80FA9 /* DataListEntry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7F56015B247053D300F80FA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7F56015E247053D300F80FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F560160247053D300F80FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F5601662470540F00F80FA9 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		7F5601682470543800F80FA9 /* DataListEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataListEntry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				7F56015D247053D300F80FA9 /* LaunchScreen.storyboard */,
 				7F560160247053D300F80FA9 /* Info.plist */,
 				7F56015A247053D300F80FA9 /* Preview Content */,
+				7F5601662470540F00F80FA9 /* NetworkingManager.swift */,
+				7F5601682470543800F80FA9 /* DataListEntry.swift */,
 			);
 			path = "ParseJ-N-XC11";
 			sourceTree = "<group>";
@@ -147,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F560153247053D100F80FA9 /* AppDelegate.swift in Sources */,
+				7F5601672470540F00F80FA9 /* NetworkingManager.swift in Sources */,
 				7F560155247053D100F80FA9 /* SceneDelegate.swift in Sources */,
+				7F5601692470543800F80FA9 /* DataListEntry.swift in Sources */,
 				7F560157247053D100F80FA9 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
